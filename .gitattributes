@@ -1,0 +1,13 @@
+# Text file normalization
+# Configuration for git attributes
+*.yml linguist-detectable=false
+dist/* linguist-vendored
+*.woff binary
+*.svg text
+public/*.html linguist-vendored
+
+*.bat text eol=crlf
+*.tsx linguist-detectable
+*.png binary
+
+src/*.ts linguist-detectable
